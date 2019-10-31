@@ -17,20 +17,24 @@ lyman(z,lr,lb,ar,ab,psep,rpb)
 ### Functions to generate data
 
 intrinsic_double()
+
 	generate intrinsic fake data
 	returns y value 
 	x value can read out by self.xx
 
 smooth()
+
 	generate LSF smoothed data
 	returns y value 
 	x value can read out by self.xx
 
 MuseData()
+
 	generate fake MUSE data
 	returns both x and y value with a decreased pixel-scale
 
 MuseDataN(sigma)
+
 	generate fake MUSE data with noise
 	returns both x and y value with a decreased pixel-scale
 	
